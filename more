@@ -22,3 +22,15 @@ promise
 modularization/import
 foreach/map/apply/call/reduce/sort etc
 array/object/string methods
+
+mport React concepts to understand:
+
+Virtual DOM (you can read the source code to know more about how it works)
+Unidirectional binding
+Reconciliation
+Shallow comparison
+what’s the use of package.json? (installing modules/update module versions)
+render props
+HOC
+why React? history & development
+hooks
