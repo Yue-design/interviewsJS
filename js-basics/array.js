@@ -30,7 +30,7 @@ let myArray2 = ['Mango', 'Apple', 'Orange']
 // 4. Understanding Length
 let cats = []
 cats[30] = ['Dusty']
-console.log(cats.length);
+console.log(cats.length); // 31
 
 // 5. Iterating Over Arrays: arrays, DOM nodes
 let colors = ['red', 'green', 'blue'];
@@ -72,13 +72,13 @@ console.log(arr);
 let a = ['a', 'b', 'a', 'b', 'a'];
 let index1 = a.indexOf('b');
 console.log(index1);
-let index2 = a.indexOf('b', 2);
+let index2 = a.indexOf('b', 2); // 4
 console.log(index2);
 let index3 = a.indexOf('z');
 console.log(index3);
 let index4 = a.lastIndexOf('b');
 console.log(index4);
-let index5 = a.lastIndexOf('b', 4);
+let index5 = a.lastIndexOf('b', 4); // 3
 console.log(index5);
 let index6 = a.lastIndexOf('z');
 console.log(index6);

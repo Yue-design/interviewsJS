@@ -170,8 +170,9 @@ for (var i = 0; i < elements.length; i++) {
 }
 
 // (8) In an inline event handler
-<button onclick="alert(this.tagName.toLowerCase());">Show this</button>
-<button onclick="alert((function() { return this; })());">Show inner this</button>
+// JSX expressions must have one parent element.
+{/* <button onclick="alert(this.tagName.toLowerCase());">Show this</button>
+<button onclick="alert((function() { return this; })());">Show inner this</button> */}
 
 // (9) this in classes
 class Car {
