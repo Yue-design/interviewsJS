@@ -9,6 +9,8 @@ Every closure has three scopes:
 1) Local Scope (Own Scope)
 2) Out Functions Scope
 3) Global Scope
+
+An inner function has always access to the variables and parameters of its outer function, even after the outer function has retured.
 */
 
 // 1. Lexical Scoping
