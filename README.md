@@ -4,3 +4,5 @@
 # JavaScript Core
 # JavaScript ES6+
 # Eloquent JavaScript
+# React
+# React-Redux
