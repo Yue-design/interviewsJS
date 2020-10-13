@@ -1,6 +1,8 @@
 /*
 Inheritance and the Prototype Chain
 
+Prototype chaining is used to build new types of objects based on existing ones, similarly, inheritance.
+
 JavaScript is dynamic and does not provide a class implementation. But the class keyword in ES2015 is syntactical sugar, and it remains prototype-based.
 
 When it comes to inheritance, JavaScript only has one construct: objects. Each object has a private property which holds a link to another object called its prototype.
