@@ -2,6 +2,8 @@
 Functions
 1. building blocks
 2. a JS procedure: a set of statements
+
+scope: accessibility of variables, functions and objects
 */
 
 
