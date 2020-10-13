@@ -50,3 +50,15 @@ var fruitbear = {name: 'apple'};
 
 console.log(fruit == fruitbear); // return false
 console.log(fruit === fruitbear);// return false
+
+// 5. Singleton Pattern: an object can only be istantiated one time
+var object = new function() {
+  this.name = 'yue';
+}
+
+// 6. Function constructor with prototype
+// It is equivalent to an instance created with an object create method with a function prototype
+// and then call that function with an instance and prameters as arguments
+function Person() {}
+Person.prototype.name = 'Yue';
+var object = new Person();
