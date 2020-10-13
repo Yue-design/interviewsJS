@@ -1,6 +1,11 @@
 /*
 import
 
+Why Modules? => an object literal, a function, or a constructor
+a) maintainability
+b) reusabiligy
+c) namespacing
+
 The static import statement is used to import read only live bindings which are exported by another module.
 There is also a function-like dynamic import(), which does not require scripts of type="module".
 
