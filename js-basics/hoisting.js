@@ -10,6 +10,9 @@ In fact, the variable and function declarations are put into memory during the c
 but stay exactly where you typed them in your code.
 
 It means that var, const and let variable declarations are interpreted as if it is at the top of its scope.
+
+var: variables will be hoisted
+let: hoisted but not initialized
 */
 
 // 1. Technical Example
