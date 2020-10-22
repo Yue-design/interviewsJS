@@ -3,6 +3,7 @@ Data Types
 Primitives & Objects
 
 null vs. undefined
+undefined vs. undeclared (runtime error)
 */
 
 // 1. boolean
