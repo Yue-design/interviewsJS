@@ -11,6 +11,9 @@ once a promise is settled, the value must not change
 promise chaining: a sequence of asynchronous tasks one after another
 
 promise.all() vs. promise.race()
+
+sequential asynchronous code
+parallel asynchronous code
 */
 
 var promise1 = new Promise(function(resolve, reject) {

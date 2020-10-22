@@ -5,17 +5,18 @@ The Promise object represents the eventual completion (or failure) of an asynchr
 
 A Promise is in one of these states:
 pending, fullfilled, rejected
-*/
 
+you need to load a polyfill if ES6 is not supported
+*/
 
 // 1. Basic Example
 let myFirstPromise = new Promise((resolve, reject) => {
   setTimeout(function() {
-    resolve("Success!")
-  }, 250)
+    resolve("Success!");
+  }, 250);
 });
 
-myFirstPromise.then((successMessage) => {
+myFirstPromise.then(successMessage => {
   console.log("Yay!" + successMessage);
 });
 
