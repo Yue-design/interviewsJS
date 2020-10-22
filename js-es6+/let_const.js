@@ -2,6 +2,8 @@
 let and const
 
 In ES6, accessing a let or const varaiable before its declaration (within its scope) cause a ReferenceError.
+
+global vairables
 */
 
 // temporal dead zone
