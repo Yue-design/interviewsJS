@@ -41,3 +41,11 @@
 
 <p>window: the root level element `alert()`, `confirm()`</p>
 <p>document: DOM, the direct child of window `getElementById`, `getElementByTagName`, `createElement`</p>
+
+### event
+
+<p>Events are "things" that happens to HTML elements.</p>
+<p>JavaScript can react on these enents.</p>
+<p>web page has finished loading</p>
+<p>input field was changed</p>
+<p>button was clicked</p>
