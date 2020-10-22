@@ -10,13 +10,28 @@ let bNotANum = new Boolean(NaN);
 let bBrowserDefault = new Boolean(undefined);
 let bStrProto = new Boolean("");
 
-console.log(bNoParam, bZero, bZeroNeg, bNull, bfalse, bNotANum, bBrowserDefault, bStrProto)
+console.log(
+  bNoParam,
+  bZero,
+  bZeroNeg,
+  bNull,
+  bfalse,
+  bNotANum,
+  bBrowserDefault,
+  bStrProto
+);
 
 // 2. Creating Boolean Objects with an Initial Value of true
 let btrue = new Boolean(true);
-let btrueString = new Boolean('true');
-let bfalseString = new Boolean('false');
+let btrueString = new Boolean("true");
+let bfalseString = new Boolean("false");
 let bArrayProto = new Boolean([]);
 let bObjProto = new Boolean({});
 
-console.log(btrue, btrueString, bfalseString, bArrayProto, bObjProto)
+console.log(btrue, btrueString, bfalseString, bArrayProto, bObjProto);
+
+// 3. double exclamation(!!)
+// to ensure the resulting type is a boolean
+let isIE8 = false;
+// isIE8 = !!navigator.userAgent.match(/MSIE 8.0/);
+console.log(!!isIE8);
