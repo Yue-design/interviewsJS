@@ -2,6 +2,8 @@
 
 ## case-sensitive
 
+<p>identifiers must always be typed with a consistent capitalization of letters</p>
+
 ## event flow
 
 <p>the order which events is received on the web page</p>
@@ -25,6 +27,10 @@
 
 ## an interpreted language
 
+<p>JavaScript is an interpreted language.</p>
+<p>An interpreter in the browser reads over the JavaScript code, interprets each line, and runs it.</p>
+<p>Modern Browsers use a technology known as Just-In-Time(JIT) compilation.</p>
+
 ## an Object Oriented Programming language
 
 ## same-origin policy
@@ -33,3 +39,5 @@
 <p>an origin is a combination of URI scheme, hostname, and prot number</p>
 
 ## void 0
+
+<p>Void(0) is used to prevent the page from refreshing.</p>
