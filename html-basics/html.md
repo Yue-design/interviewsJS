@@ -49,3 +49,7 @@
 <p>web page has finished loading</p>
 <p>input field was changed</p>
 <p>button was clicked</p>
+
+### attributes vs. properties
+
+<p>Attributes are defined on the HTML markup whereas properities are defined on DOM.</p>
