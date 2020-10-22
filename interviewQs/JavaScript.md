@@ -26,3 +26,10 @@
 ## an interpreted language
 
 ## an Object Oriented Programming language
+
+## same-origin policy
+
+<p>to prevent JavaScript from making requests across domain boundaries</p>
+<p>an origin is a combination of URI scheme, hostname, and prot number</p>
+
+## void 0
