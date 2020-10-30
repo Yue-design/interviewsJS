@@ -53,3 +53,5 @@
 ## BOM
 
 <p>The Browser Object Model allows JavaScript to talk to the browser.</p>
+
+## Single Threaded
