@@ -59,3 +59,7 @@
 ## ECMAScript
 
 <p>ES6 is the scripting language that forms the basis of JS.</p>
+
+## PWA
+
+<p>Progressive web applications</p>
