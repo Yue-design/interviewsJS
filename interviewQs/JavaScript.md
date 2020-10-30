@@ -43,3 +43,11 @@
 ## void 0
 
 <p>Void(0) is used to prevent the page from refreshing.</p>
+
+## preventDefault() method
+
+<p>cancel the event</p>
+<p>1. prevent form submission when clicking on submit button</p>
+<p>2. prevent opening the page URL which clicking on hyper link</p>
+
+#
