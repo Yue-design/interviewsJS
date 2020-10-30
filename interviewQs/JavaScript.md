@@ -50,4 +50,8 @@
 <p>1. prevent form submission when clicking on submit button</p>
 <p>2. prevent opening the page URL which clicking on hyper link</p>
 
-#
+## steps in return false usage
+
+<p>It stops the browser's default action or behavior</p>
+<p>It prevents the event from propagating the DOM</p>
+<p>Stops callback execution and returns immediately when called</p>
