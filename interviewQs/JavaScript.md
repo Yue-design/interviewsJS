@@ -1,5 +1,7 @@
 # JavaScript
 
+## Brendan Eich 1995
+
 ## case-sensitive
 
 <p>identifiers must always be typed with a consistent capitalization of letters</p>
