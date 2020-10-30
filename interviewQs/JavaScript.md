@@ -55,3 +55,7 @@
 <p>The Browser Object Model allows JavaScript to talk to the browser.</p>
 
 ## Single Threaded
+
+## ECMAScript
+
+<p>ES6 is the scripting language that forms the basis of JS.</p>
