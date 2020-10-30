@@ -10,9 +10,21 @@
         .addEventListener("click", function(event) {
           event.preventDefault();
         });
+      function firstFunc(event) {
+        alert("DIV 1");
+        event.stopPropagation();
+      }
+      function secondFunc() {
+        alert("DIV 2");
+      }
     </script>
   </head>
   <body>
     <button type="button" onclick="greeting()">Click me</button>
+    <p>Click DIV1 Element</p>
+    <div onclick="secondFunc()">
+      DIV 2
+      <div onclick="firstFunc(event)">DIV 1</div>
+    </div>
   </body>
 </html>
